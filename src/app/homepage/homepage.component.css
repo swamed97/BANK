@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .withbx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+section .withbx .formbx{
+    width: 350px;
+  
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #111212;
+    box-shadow: 50px 50px 50px;
+
+}
+section .withbx .formbx h2{
+    color:#071217;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ff4584;
+    display: inline-block;
+    letter-spacing: 1px;
+   
+}
+section .withbx .formbx .inpbx{
+    margin-bottom: 20px;
+}
+section .withbx .formbx .inpbx input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight:400 ;
+    border: 1px solid#101010;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #e3edf2;
+    background: transparent;
+    border-radius: 300px;
+}
+section .withbx .formbx .inpbx input[type="submit"]{
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+section .depbx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+section .depbx .formbx{
+    width: 350px;
+  
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #111212;
+    box-shadow: 50px 50px 50px;
+
+}
+section .depbx .formbx h2{
+    color:#071217;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ff4584;
+    display: inline-block;
+    letter-spacing: 1px;
+   
+}
+section .depbx .formbx .inpbx{
+    margin-bottom: 20px;
+}
+section .depbx .formbx .inpbx input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight:400 ;
+    border: 1px solid#101010;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #0c0d0d;
+    background: transparent;
+    border-radius: 300px;
+}
+section .depbx .formbx .inpbx input[type="submit"]{
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+

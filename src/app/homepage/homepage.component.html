@@ -1,0 +1,54 @@
+<div class="ss" >
+    <nav class="navbar  bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#">About us</a>
+        <a class="navbar-brand" href="#">Contact us</a>
+        <a class="navbar-brand" href="history">Credit</a>
+      </div>
+    </nav>
+  </div>
+  <p>welcome {{crntname}}</p>
+
+  <section>
+   <div class="depbx">
+    <div class="formbx">
+        <h2>Deposit</h2>
+
+        <div class="inpbx">
+            <input type="text" placeholder="Enter userid" [(ngModel)]="userid" readonly>
+        </div>
+
+      
+        <div class="inpbx">
+            <input type="text" placeholder="Enter Amount" [(ngModel)]="damt">
+        </div>
+
+        <div class="inpbx">
+            <input type="submit" value="Enter" (click)="dept()">
+        </div>
+
+    </div>
+   </div>
+   <div class="withbx">
+    <div class="formbx">
+        <h2>Withdrawal</h2>
+
+        <div class="inpbx">
+            <input type="text" placeholder="Enter userid" [(ngModel)]="userid" readonly>
+        </div>
+
+
+     
+
+        <div class="inpbx">
+            <input type="text" placeholder="Enter Amount" [(ngModel)]="wamt">
+        </div>
+
+        <div class="inpbx">
+            <input type="submit" value="Enter" (click)="with()">
+        </div>
+
+    </div>
+   </div>
+  </section>

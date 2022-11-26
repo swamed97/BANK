@@ -1,0 +1,27 @@
+<div class="main">
+    <div class="regbx">
+        <h2>Register</h2>
+        <form  [formGroup]="RegisterForm">
+
+        <div class="inpbx">
+            <input type="text" formControlName="userid" placeholder="Enter your userid">
+        </div>
+
+        <div class="inpbx">
+            <input type="text" formControlName="email" placeholder="Enter your account email">
+        </div>
+
+        <div class="inpbx">
+            <input type="text" formControlName="password" placeholder="Enter your password">
+        </div>
+
+        <div class="inpbx">
+            <input type="text" formControlName="balance" placeholder="Enter your balance">
+        </div>
+
+        <div class="inpbx">
+            <input type="submit" value="Register" (click)="register()">
+        </div>
+    </form>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<section>
+    <div class="imgBx">
+        <div class="pp"><h1>YOUR LIFE<br>YOUR MONEY<br>YOUR BANK</h1></div>
+    </div>
+    <div class="contentBx">
+        <div class="formBx">
+            <h2>Login</h2>
+            
+                <div class="inputBx">
+                    <span>Account user id</span>
+                    <input type="text"  [(ngModel)]="userid">
+                </div>
+                <div class="inputBx">
+                    <span>Password</span>
+                    <input type="text" [(ngModel)]="pswd">
+                </div>
+               
+                <div class="inputBx">
+                    <input type="submit" value="Login" (click)="login()" >
+                </div>
+                <div class="inputBx">
+                    <p>Don't have an account? <a href="./register">Sign up</a></p>
+                </div>
+            
+        </div>
+    </div>
+</section>
